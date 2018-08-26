@@ -20,6 +20,8 @@ allprojects {
         google()
         jcenter()
         mavenCentral()
+
+        /* Para a RoundedImageView */
         maven { url "https://jitpack.io" }
     }
 }
