@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CA2B2F</color>
+    <color name="colorPrimaryDark">#881A1C</color>
+    <color name="colorAccent">#FFFF00</color>
+
+    <color name="colorBgNavigationView">#F5F5F6</color>
+    <color name="colorItemNormal">#777777</color>
+
+    <color name="colorLightGrey">#DDDDDD</color>
+    <color name="colorGrey">#666666</color>
+    <color name="colorDarkGrey">#666666</color>
+
+    <color name="colorSubText">#AAAAAA</color>
+    <color name="colorBgStrokeItemCar">#BBBBBB</color>
+
+    <color name="colorLink">#00A6FF</color>
+</resources>

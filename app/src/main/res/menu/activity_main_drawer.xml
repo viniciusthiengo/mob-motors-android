@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_car_sale"
+            android:checked="true"
+            android:icon="@drawable/ic_car_sale"
+            android:title="@string/nav_item_cars_on_sale" />
+        <item
+            android:id="@+id/nav_popular_car"
+            android:icon="@drawable/ic_popular_car"
+            android:title="@string/nav_item_popular_cars" />
+        <item
+            android:id="@+id/nav_foreign_car"
+            android:icon="@drawable/ic_foreign_car"
+            android:title="@string/nav_item_foreign_cars" />
+        <item
+            android:id="@+id/nav_motorcycle_sale"
+            android:icon="@drawable/ic_motorcycle_sale"
+            android:title="@string/nav_item_motorcycles_on_sale" />
+        <item
+            android:id="@+id/nav_top_sales"
+            android:icon="@drawable/ic_top_sales"
+            android:title="@string/nav_item_top_sales" />
+    </group>
+</menu>

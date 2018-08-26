@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Estilo base do aplicativo. -->
+    <style
+        name="AppTheme"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--
+        Estilo que remove a barra de topo padrão e assim deixa esse
+        trecho de topo livre para ser utilizado, por exemplo, pelo
+        AppBarLayout.
+    -->
+    <style name="AppTheme.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Para o correto enquadramento do AppBarLayout. -->
+    <style
+        name="AppTheme.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!--
+		Utilizado para a correta apresentação de menus de pop-up.
+		Apesar de não utilizarmos menus pop-up de topo aqui, vamos
+		continuar com este tema, pois é algo comum em qualquer
+		componente Toolbar quando em layout.
+	-->
+    <style
+        name="AppTheme.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
+</resources>

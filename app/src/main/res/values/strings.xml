@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MobMotors</string>
+    <string name="page_name">Carros em oferta</string>
+
+    <string name="title_activity_details">DetailsActivity</string>
+
+    <string name="navigation_drawer_open">Menu gaveta aberto</string>
+    <string name="navigation_drawer_close">Menu gaveta fechado</string>
+
+    <string name="action_search">Buscar</string>
+    <string name="action_cars">Carros</string>
+    <string name="action_motorcycles">Motos</string>
+    <string name="action_call">Ligar</string>
+
+    <string name="nav_item_cars_on_sale">Carros em oferta</string>
+    <string name="nav_item_popular_cars">Carros populares</string>
+    <string name="nav_item_foreign_cars">Carros importados</string>
+    <string name="nav_item_motorcycles_on_sale">Motos em oferta</string>
+    <string name="nav_item_top_sales">Mais vendidos</string>
+
+    <string name="iv_desc_year_prod_model">Ano de produção / ano do modelo</string>
+    <string name="iv_desc_kilometers">Quilômetros já rodados</string>
+    <string name="iv_desc_car_changes">Tipo de câmbio</string>
+    <string name="iv_desc_place">Tipo do vendedor</string>
+
+    <string name="label_more_info">Mais informações</string>
+    <string name="label_color">Cor:</string>
+    <string name="label_bodywork">Carroceria:</string>
+    <string name="label_plate">Placa final:</string>
+    <string name="label_gas">Combustível:</string>
+    <string name="label_seller_obs">Observações do vendedor</string>
+
+    <string name="iv_desc_close_dialog">Fechar caixa de diálogo de imagens</string>
+    <string name="iv_desc_prev_image">Imagem anterior</string>
+    <string name="iv_desc_next_image">Próxima imagem</string>
+</resources>
