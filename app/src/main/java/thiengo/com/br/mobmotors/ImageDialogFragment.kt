@@ -76,6 +76,11 @@ class ImageDialogFragment : DialogFragment(), View.OnClickListener {
         iv_arrow_right.setOnClickListener( this )
 
         setImage( false )
+
+        /*
+         * Ampliando a capacidade de zoom máximo na imagem.
+         * */
+        iv_image.maximumScale = 5.0F
     }
 
     override fun onClick( view: View ) {

@@ -19,10 +19,12 @@ allprojects {
     repositories {
         google()
         jcenter()
-        mavenCentral()
 
         /* Para a RoundedImageView */
         maven { url "https://jitpack.io" }
+
+        /* Para a PhotoView API */
+        mavenCentral()
     }
 }
 

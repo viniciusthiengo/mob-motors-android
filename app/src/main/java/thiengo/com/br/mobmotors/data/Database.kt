@@ -23,7 +23,15 @@ class Database {
                         "Hatchback",
                         9,
                         "Gasolina",
-                        "Veículo em Bom Estado, Detalhes Apenas de Uso! Melhor Custo-benefício da Categoria, Super Econômico. Versão GL 1.0 MPI C/ Travas e Vidros Elétricos + Alarme + 4 Pneus Novos. Contate Nossa Central e Fale com um Personal Car Agora Mesmo: Aprovamos seu Crédito em Minutos; Trabalhamos com as Menores Taxas do Mercado; Financiamos Com e Sem Entrada em até 60x; Parcelamos sua Entrada no Cartão de Crédito; Avaliamos seu Carro em Tempo Real; Garantimos a Melhor Avaliação do seu Usado na Troca;"
+                        "Veículo em Bom Estado, Detalhes Apenas de Uso! " +
+                                "Melhor Custo-benefício da Categoria, Super Econômico. " +
+                                "Versão GL 1.0 MPI C/ Travas e Vidros Elétricos + Alarme " +
+                                "+ 4 Pneus Novos. Contate Nossa Central e Fale com um " +
+                                "Personal Car Agora Mesmo: Aprovamos seu Crédito em Minutos; " +
+                                "Trabalhamos com as Menores Taxas do Mercado; Financiamos Com " +
+                                "e Sem Entrada em até 60x; Parcelamos sua Entrada no Cartão " +
+                                "de Crédito; Avaliamos seu Carro em Tempo Real; Garantimos " +
+                                "a Melhor Avaliação do seu Usado na Troca;"
                     ),
                     listOf(
                         "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2018/201808/20180810/ford-ka-1.0-mpi-gl-8v-gasolina-2p-manual-wmimagem16503502368.jpg",
@@ -48,7 +56,15 @@ class Database {
                         "Hatchback",
                         9,
                         "Gasolina",
-                        "Veículo 2º Dono, Muito Bem Conservado por Conta do Ano. Apenas 106 Unidades Fabricadas no Brasil, Super Raro! Edição Limitada Kid 1.0 4pts C/ Bancos de Couro Azul, Imperdível. Exemplar Ótimo Para Colocar Placa Preta, Perfeito Para Colecionadores. Contate Nossa Central e Fale com um Personal Car Agora Mesmo: Aprovamos seu Crédito em Minutos; Trabalhamos com as Menores Taxas do Mercado; Financiamos Com e Sem Entrada em até 60x; Parcelamos sua Entrada no Cartão de Crédito;"
+                        "Veículo 2º Dono, Muito Bem Conservado por Conta do Ano. " +
+                                "Apenas 106 Unidades Fabricadas no Brasil, Super Raro! Edição " +
+                                "Limitada Kid 1.0 4pts C/ Bancos de Couro Azul, Imperdível. " +
+                                "Exemplar Ótimo Para Colocar Placa Preta, Perfeito Para " +
+                                "Colecionadores. Contate Nossa Central e Fale com um Personal " +
+                                "Car Agora Mesmo: Aprovamos seu Crédito em Minutos; " +
+                                "Trabalhamos com as Menores Taxas do Mercado; Financiamos " +
+                                "Com e Sem Entrada em até 60x; Parcelamos sua Entrada no Cartão " +
+                                "de Crédito;"
                     ),
                     listOf(
                         "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2018/201808/20180811/peugeot-106-1.0-xn-8v-gasolina-4p-manual-wmimagem11320892426.jpg",
@@ -67,13 +83,22 @@ class Database {
                     1995,
                     157800,
                     "Manual",
-                    Seller("11999887766", "Loja", "São Bernado do Campo (SP)"),
+                    Seller("11999887766", "Loja", "Serra (ES)"),
                     MoreInfo(
                         "Cinza",
                         "Sedã",
                         3,
                         "Gasolina",
-                        "Veículo Muito Bem Conservado, Realmente Diferenciado! Primeiro Que Ver Fecha Negócio, Preço Sensacional. Versão SX 2.0 IE C/ DH/TE/VE + Alarme + Faróis de Milha + Rodas. Contate Nossa Central e Fale com um Personal Car Agora Mesmo: Aprovamos seu Crédito em Minutos; Trabalhamos com as Menores Taxas do Mercado; Financiamos Com e Sem Entrada em até 60x; Parcelamos sua Entrada no Cartão de Crédito; Avaliamos seu Carro em Tempo Real; Garantimos a Melhor Avaliação do seu Usado na Troca; Outros Opcionais: Farol de neblina, MP3 Player."
+                        "Veículo Muito Bem Conservado, Realmente Diferenciado! " +
+                                "Primeiro Que Ver Fecha Negócio, Preço Sensacional. Versão " +
+                                "SX 2.0 IE C/ DH/TE/VE + Alarme + Faróis de Milha + Rodas. " +
+                                "Contate Nossa Central e Fale com um Personal Car Agora " +
+                                "Mesmo: Aprovamos seu Crédito em Minutos; Trabalhamos com " +
+                                "as Menores Taxas do Mercado; Financiamos Com e Sem Entrada " +
+                                "em até 60x; Parcelamos sua Entrada no Cartão de Crédito; " +
+                                "Avaliamos seu Carro em Tempo Real; Garantimos a Melhor " +
+                                "Avaliação do seu Usado na Troca; Outros Opcionais: Farol " +
+                                "de neblina, MP3 Player."
                     ),
                     listOf(
                         "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2018/201808/20180810/fiat-tempra-2.0-ie-8v-gasolina-4p-manual-wmimagem16492872565.jpg",
@@ -92,13 +117,21 @@ class Database {
                     2003,
                     199000,
                     "Manual",
-                    Seller("11999887766", "Loja", "São Bernado do Campo (SP)"),
+                    Seller("11999887766", "Loja", "Vitória (ES)"),
                     MoreInfo(
                         "Azul",
                         "Hatchback",
                         8,
                         "Gasolina",
-                        "SPINER MOTORS, SEU JEITO INTELIGENTE DE COMPRAR E VENDER CARRO !!! Veículo em Bom Estado, Detalhes a Serem Feitos. Excelente Custo-benefício, Vale a Pena Conferir. Versão VHC 2pts Básico, Preço Sensacional. Contate Nossa Central e Fale com um Personal Car Agora Mesmo: Aprovamos seu Crédito em Minutos; Trabalhamos com as Menores Taxas do Mercado; Financiamos Com e Sem Entrada em até 60x; Parcelamos sua Entrada no Cartão de Crédito; Avaliamos seu Carro em Tempo Real;"
+                        "SPINER MOTORS, SEU JEITO INTELIGENTE DE COMPRAR E " +
+                                "VENDER CARRO !!! Veículo em Bom Estado, Detalhes a Serem " +
+                                "Feitos. Excelente Custo-benefício, Vale a Pena Conferir. " +
+                                "Versão VHC 2pts Básico, Preço Sensacional. Contate Nossa " +
+                                "Central e Fale com um Personal Car Agora Mesmo: Aprovamos " +
+                                "seu Crédito em Minutos; Trabalhamos com as Menores Taxas " +
+                                "do Mercado; Financiamos Com e Sem Entrada em até 60x; " +
+                                "Parcelamos sua Entrada no Cartão de Crédito; Avaliamos seu " +
+                                "Carro em Tempo Real;"
                     ),
                     listOf(
                         "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2018/201804/20180428/chevrolet-celta-1.0-mpfi-vhc-8v-gasolina-2p-manual-wmimagem15534633290.jpg",
@@ -117,13 +150,22 @@ class Database {
                     2000,
                     317400,
                     "Manual",
-                    Seller("11999887766", "Loja", "São Bernado do Campo (SP)"),
+                    Seller("11999887766", "Loja", "Fortaleza (CE)"),
                     MoreInfo(
                         "Cinza",
                         "Perua/SW",
                         0,
                         "Gasolina",
-                        "Veículo em Bom Estado, Vale a Pena Conferir! Primeiro Que Ver Fecha Negócio, Ótimo Custo-benefício. Versão Weekend 1.0 6 Marchas C/ DH/TE/VE + Alarme + Rodas, Preço Imperdível. Contate Nossa Central e Fale com um Personal Car Agora Mesmo: Aprovamos seu Crédito em Minutos; Trabalhamos com as Menores Taxas do Mercado; Financiamos Com e Sem Entrada em até 60x; Parcelamos sua Entrada no Cartão de Crédito; Avaliamos seu Carro em Tempo Real; Garantimos a Melhor Avaliação do seu Usado na Troca; Outros Opcionais: MP3 Player."
+                        "Veículo em Bom Estado, Vale a Pena Conferir! Primeiro " +
+                                "Que Ver Fecha Negócio, Ótimo Custo-benefício. Versão " +
+                                "Weekend 1.0 6 Marchas C/ DH/TE/VE + Alarme + Rodas, Preço " +
+                                "Imperdível. Contate Nossa Central e Fale com um Personal " +
+                                "Car Agora Mesmo: Aprovamos seu Crédito em Minutos; " +
+                                "Trabalhamos com as Menores Taxas do Mercado; Financiamos " +
+                                "Com e Sem Entrada em até 60x; Parcelamos sua Entrada no " +
+                                "Cartão de Crédito; Avaliamos seu Carro em Tempo Real; " +
+                                "Garantimos a Melhor Avaliação do seu Usado na Troca; Outros " +
+                                "Opcionais: MP3 Player."
                     ),
                     listOf(
                         "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2018/201807/20180704/fiat-palio-1.0-mpi-6m-weekend-8v-gasolina-4p-manual-wmimagem19135786445.jpg",
