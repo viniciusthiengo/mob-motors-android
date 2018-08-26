@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/item_car_background"
-    android:layout_marginTop="4dp"
     android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
+    android:background="@drawable/item_car_background"
     android:paddingBottom="0dp"
     android:paddingLeft="4dp"
     android:paddingRight="0dp"
@@ -54,78 +54,52 @@
 
     <ImageView
         android:id="@+id/iv_year_prod_model"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        style="@style/AppTheme.ItemIcon"
         android:layout_alignLeft="@+id/tv_short_description"
         android:layout_alignStart="@+id/tv_short_description"
         android:layout_below="@+id/tv_short_description"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
         android:layout_marginTop="9dp"
         android:contentDescription="@string/iv_desc_year_prod_model"
-        android:scaleType="center"
-        android:src="@drawable/ic_year_prod_model"
-        android:tint="@color/colorItemNormal" />
+        android:src="@drawable/ic_year_prod_model" />
 
     <TextView
         android:id="@+id/tv_year_prod_model"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/AppTheme.ItemTextIcon"
         android:layout_alignTop="@+id/iv_year_prod_model"
         android:layout_toEndOf="@+id/iv_year_prod_model"
-        android:layout_toRightOf="@+id/iv_year_prod_model"
-        android:textColor="@color/colorItemNormal"
-        android:textSize="16sp" />
+        android:layout_toRightOf="@+id/iv_year_prod_model" />
 
     <ImageView
         android:id="@+id/iv_kilometers"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        style="@style/AppTheme.ItemIcon"
         android:layout_alignLeft="@+id/tv_short_description"
         android:layout_alignStart="@+id/tv_short_description"
         android:layout_below="@+id/iv_year_prod_model"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginTop="1dp"
         android:contentDescription="@string/iv_desc_kilometers"
-        android:scaleType="center"
-        android:src="@drawable/ic_kilometers"
-        android:tint="@color/colorItemNormal" />
+        android:src="@drawable/ic_kilometers" />
 
     <TextView
         android:id="@+id/tv_kilometers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/AppTheme.ItemTextIcon"
         android:layout_alignTop="@+id/iv_kilometers"
         android:layout_toEndOf="@+id/iv_kilometers"
-        android:layout_toRightOf="@+id/iv_kilometers"
-        android:textColor="@color/colorItemNormal"
-        android:textSize="16sp" />
+        android:layout_toRightOf="@+id/iv_kilometers" />
 
     <ImageView
         android:id="@+id/iv_car_changes"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        style="@style/AppTheme.ItemIcon"
         android:layout_alignLeft="@+id/tv_short_description"
         android:layout_alignStart="@+id/tv_short_description"
         android:layout_below="@+id/iv_kilometers"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:layout_marginTop="1dp"
         android:contentDescription="@string/iv_desc_car_changes"
-        android:scaleType="center"
-        android:src="@drawable/ic_car_changes"
-        android:tint="@color/colorItemNormal" />
+        android:src="@drawable/ic_car_changes" />
 
     <TextView
         android:id="@+id/tv_car_changes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/AppTheme.ItemTextIcon"
         android:layout_alignTop="@+id/iv_car_changes"
         android:layout_toEndOf="@+id/iv_car_changes"
-        android:layout_toRightOf="@+id/iv_car_changes"
-        android:textColor="@color/colorItemNormal"
-        android:textSize="16sp" />
+        android:layout_toRightOf="@+id/iv_car_changes" />
 
     <View
         android:id="@+id/v_vertical_line"
@@ -143,27 +117,20 @@
 
     <ImageView
         android:id="@+id/iv_place"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        style="@style/AppTheme.ItemIcon"
         android:layout_alignTop="@+id/v_vertical_line"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
+        android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/v_vertical_line"
         android:layout_toRightOf="@+id/v_vertical_line"
         android:contentDescription="@string/iv_desc_place"
-        android:scaleType="center"
-        android:src="@drawable/ic_place"
-        android:tint="@color/colorItemNormal" />
+        android:src="@drawable/ic_place" />
 
     <TextView
         android:id="@+id/tv_place"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/AppTheme.ItemTextIcon"
         android:layout_alignTop="@+id/iv_place"
         android:layout_toEndOf="@+id/iv_place"
-        android:layout_toRightOf="@+id/iv_place"
-        android:textColor="@color/colorItemNormal"
-        android:textSize="16sp" />
+        android:layout_toRightOf="@+id/iv_place" />
 
     <TextView
         android:id="@+id/tv_place_full"
@@ -190,5 +157,4 @@
         android:background="@drawable/item_price_background"
         android:textColor="@android:color/white"
         android:textSize="15sp" />
-
 </RelativeLayout>

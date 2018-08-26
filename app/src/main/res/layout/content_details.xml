@@ -14,17 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/white"
-        android:padding="12dp">
+        android:padding="@dimen/default_margin_padding">
 
         <com.makeramen.roundedimageview.RoundedImageView
             android:id="@+id/iv_car"
+            style="@style/AppTheme.DetailsRoundedImageView"
             android:layout_width="190dp"
             android:layout_height="230dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:onClick="openAlbum"
-            android:scaleType="centerCrop"
             app:riv_border_color="@android:color/transparent"
             app:riv_border_width="2dp"
             app:riv_corner_radius="5dp"
@@ -38,10 +37,10 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/iv_car"
             android:layout_alignTop="@+id/iv_car"
-            android:layout_marginEnd="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginStart="12dp"
+            android:layout_marginEnd="@dimen/default_margin_padding"
+            android:layout_marginLeft="@dimen/default_margin_padding"
+            android:layout_marginRight="@dimen/default_margin_padding"
+            android:layout_marginStart="@dimen/default_margin_padding"
             android:layout_toEndOf="@+id/iv_car"
             android:layout_toRightOf="@+id/iv_car"
             android:background="@color/colorLightGrey" />
@@ -59,78 +58,52 @@
 
         <ImageView
             android:id="@+id/iv_year_prod_model"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            style="@style/AppTheme.DetailsInfoIcon"
             android:layout_alignLeft="@+id/tv_short_description"
             android:layout_alignStart="@+id/tv_short_description"
             android:layout_below="@+id/tv_short_description"
-            android:layout_marginEnd="6dp"
-            android:layout_marginRight="6dp"
             android:layout_marginTop="8dp"
             android:contentDescription="@string/iv_desc_year_prod_model"
-            android:scaleType="center"
-            android:src="@drawable/ic_year_prod_model"
-            android:tint="@color/colorDarkGrey" />
+            android:src="@drawable/ic_year_prod_model" />
 
         <TextView
             android:id="@+id/tv_year_prod_model"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/AppTheme.DetailsTextIcon"
             android:layout_alignTop="@+id/iv_year_prod_model"
             android:layout_toEndOf="@+id/iv_year_prod_model"
-            android:layout_toRightOf="@+id/iv_year_prod_model"
-            android:textColor="@color/colorDarkGrey"
-            android:textSize="16sp" />
+            android:layout_toRightOf="@+id/iv_year_prod_model" />
 
         <ImageView
             android:id="@+id/iv_kilometers"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            style="@style/AppTheme.DetailsInfoIcon"
             android:layout_alignLeft="@+id/tv_short_description"
             android:layout_alignStart="@+id/tv_short_description"
             android:layout_below="@+id/iv_year_prod_model"
-            android:layout_marginEnd="6dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginTop="1dp"
             android:contentDescription="@string/iv_desc_kilometers"
-            android:scaleType="center"
-            android:src="@drawable/ic_kilometers"
-            android:tint="@color/colorDarkGrey" />
+            android:src="@drawable/ic_kilometers" />
 
         <TextView
             android:id="@+id/tv_kilometers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/AppTheme.DetailsTextIcon"
             android:layout_alignTop="@+id/iv_kilometers"
             android:layout_toEndOf="@+id/iv_kilometers"
-            android:layout_toRightOf="@+id/iv_kilometers"
-            android:textColor="@color/colorDarkGrey"
-            android:textSize="16sp" />
+            android:layout_toRightOf="@+id/iv_kilometers" />
 
         <ImageView
             android:id="@+id/iv_car_changes"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            style="@style/AppTheme.DetailsInfoIcon"
             android:layout_alignLeft="@+id/tv_short_description"
             android:layout_alignStart="@+id/tv_short_description"
             android:layout_below="@+id/iv_kilometers"
-            android:layout_marginEnd="6dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginTop="1dp"
             android:contentDescription="@string/iv_desc_car_changes"
-            android:scaleType="center"
-            android:src="@drawable/ic_car_changes"
-            android:tint="@color/colorDarkGrey" />
+            android:src="@drawable/ic_car_changes" />
 
         <TextView
             android:id="@+id/tv_car_changes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/AppTheme.DetailsTextIcon"
             android:layout_alignTop="@+id/iv_car_changes"
             android:layout_toEndOf="@+id/iv_car_changes"
-            android:layout_toRightOf="@+id/iv_car_changes"
-            android:textColor="@color/colorDarkGrey"
-            android:textSize="16sp" />
+            android:layout_toRightOf="@+id/iv_car_changes" />
 
         <View
             android:id="@+id/h_vertical_line_01"
@@ -139,35 +112,28 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/iv_car_changes"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginBottom="@dimen/default_margin_padding"
+            android:layout_marginTop="@dimen/default_margin_padding"
             android:layout_toEndOf="@+id/v_vertical_line"
             android:layout_toRightOf="@+id/v_vertical_line"
             android:background="@color/colorLightGrey" />
 
         <ImageView
             android:id="@+id/iv_place"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            style="@style/AppTheme.DetailsInfoIcon"
             android:layout_below="@+id/h_vertical_line_01"
-            android:layout_marginEnd="6dp"
-            android:layout_marginRight="6dp"
+            android:layout_marginTop="0dp"
             android:layout_toEndOf="@+id/v_vertical_line"
             android:layout_toRightOf="@+id/v_vertical_line"
             android:contentDescription="@string/iv_desc_place"
-            android:scaleType="center"
-            android:src="@drawable/ic_place"
-            android:tint="@color/colorDarkGrey" />
+            android:src="@drawable/ic_place" />
 
         <TextView
             android:id="@+id/tv_place"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/AppTheme.DetailsTextIcon"
             android:layout_alignTop="@+id/iv_place"
             android:layout_toEndOf="@+id/iv_place"
-            android:layout_toRightOf="@+id/iv_place"
-            android:textColor="@color/colorDarkGrey"
-            android:textSize="16sp" />
+            android:layout_toRightOf="@+id/iv_place" />
 
         <TextView
             android:id="@+id/tv_place_full"
@@ -181,8 +147,7 @@
 
         <TextView
             android:id="@+id/tv_phone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/AppTheme.DetailsTextIcon"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/tv_place_full"
@@ -191,8 +156,7 @@
             android:layout_toRightOf="@+id/v_vertical_line"
             android:gravity="center"
             android:onClick="callSeller"
-            android:textColor="@color/colorLink"
-            android:textSize="16sp" />
+            android:textColor="@color/colorLink" />
 
         <View
             android:id="@+id/h_vertical_line_02"
@@ -201,9 +165,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/v_vertical_line"
-            android:layout_marginLeft="12dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginLeft="@dimen/default_margin_padding"
+            android:layout_marginStart="@dimen/default_margin_padding"
+            android:layout_marginTop="@dimen/default_margin_padding"
             android:layout_toEndOf="@+id/iv_car"
             android:layout_toRightOf="@+id/iv_car"
             android:background="@color/colorLightGrey" />
@@ -217,22 +181,18 @@
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/v_vertical_line"
             android:layout_below="@+id/iv_car"
-            android:layout_marginEnd="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginEnd="@dimen/default_margin_padding"
+            android:layout_marginRight="@dimen/default_margin_padding"
+            android:layout_marginTop="@dimen/default_margin_padding"
             android:background="@drawable/item_car_background"
             android:orientation="horizontal"
             android:padding="6dp">
 
             <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/iv_car_thumb_01"
-                android:layout_width="0dp"
-                android:layout_height="42dp"
+                style="@style/AppTheme.DetailsRoundedImageView"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_weight="1"
-                android:onClick="openAlbum"
-                android:scaleType="centerCrop"
                 app:riv_border_color="@android:color/transparent"
                 app:riv_border_width="2dp"
                 app:riv_corner_radius="5dp"
@@ -242,13 +202,9 @@
 
             <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/iv_car_thumb_02"
-                android:layout_width="0dp"
-                android:layout_height="42dp"
+                style="@style/AppTheme.DetailsRoundedImageView"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_weight="1"
-                android:onClick="openAlbum"
-                android:scaleType="centerCrop"
                 app:riv_border_color="@android:color/transparent"
                 app:riv_border_width="2dp"
                 app:riv_corner_radius="5dp"
@@ -258,13 +214,9 @@
 
             <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/iv_car_thumb_03"
-                android:layout_width="0dp"
-                android:layout_height="42dp"
+                style="@style/AppTheme.DetailsRoundedImageView"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_weight="1"
-                android:onClick="openAlbum"
-                android:scaleType="centerCrop"
                 app:riv_border_color="@android:color/transparent"
                 app:riv_border_width="2dp"
                 app:riv_corner_radius="5dp"
@@ -274,11 +226,7 @@
 
             <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/iv_car_thumb_04"
-                android:layout_width="0dp"
-                android:layout_height="42dp"
-                android:layout_weight="1"
-                android:onClick="openAlbum"
-                android:scaleType="centerCrop"
+                style="@style/AppTheme.DetailsRoundedImageView"
                 app:riv_border_color="@android:color/transparent"
                 app:riv_border_width="2dp"
                 app:riv_corner_radius="5dp"
@@ -295,7 +243,7 @@
             android:layout_alignEnd="@+id/h_vertical_line_02"
             android:layout_alignRight="@+id/h_vertical_line_02"
             android:layout_below="@+id/h_vertical_line_02"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="@dimen/default_margin_padding"
             android:layout_toEndOf="@+id/ll_album_container"
             android:layout_toRightOf="@+id/ll_album_container"
             android:background="@drawable/price_background"
@@ -305,43 +253,23 @@
 
         <ImageView
             android:id="@+id/iv_circle_01"
-            android:layout_width="12dp"
-            android:layout_height="12dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/ll_album_container"
-            android:layout_marginTop="44dp"
-            android:scaleType="center"
-            android:src="@drawable/ic_circle"
-            android:tint="@color/colorDarkGrey" />
+            style="@style/AppTheme.DetailsCircleIcon"
+            android:layout_below="@+id/ll_album_container" />
 
         <View
             android:id="@+id/h_vertical_line_03"
-            android:layout_width="wrap_content"
-            android:layout_height="0.8dp"
+            style="@style/AppTheme.DetailsHorizontalLine"
             android:layout_alignLeft="@+id/iv_circle_01"
             android:layout_alignStart="@+id/iv_circle_01"
             android:layout_alignTop="@+id/iv_circle_01"
-            android:layout_marginEnd="12dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="6dp"
             android:layout_toLeftOf="@+id/tv_more_info"
-            android:layout_toStartOf="@+id/tv_more_info"
-            android:background="@color/colorLightGrey" />
+            android:layout_toStartOf="@+id/tv_more_info" />
 
         <TextView
             android:id="@+id/tv_more_info"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
+            style="@style/AppTheme.DetailsTitleInfo"
             android:layout_alignTop="@+id/iv_circle_01"
-            android:layout_marginTop="-10dp"
-            android:text="@string/label_more_info"
-            android:textColor="@color/colorGrey"
-            android:textSize="21sp" />
+            android:text="@string/label_more_info" />
 
         <LinearLayout
             android:id="@+id/ll_container_more_info"
@@ -361,21 +289,12 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/label_color"
-                    android:textColor="@color/colorDarkGrey"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+                    style="@style/AppTheme.DetailsLabelInfo"
+                    android:text="@string/label_color" />
 
                 <TextView
                     android:id="@+id/tv_color_value"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="18dp"
-                    android:layout_marginStart="18dp"
-                    android:textColor="@color/colorDarkGrey"
-                    android:textSize="14sp" />
+                    style="@style/AppTheme.DetailsTextInfo" />
             </LinearLayout>
 
             <LinearLayout
@@ -385,21 +304,12 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/label_bodywork"
-                    android:textColor="@color/colorDarkGrey"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+                    style="@style/AppTheme.DetailsLabelInfo"
+                    android:text="@string/label_bodywork" />
 
                 <TextView
                     android:id="@+id/tv_bodywork_value"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="18dp"
-                    android:layout_marginStart="18dp"
-                    android:textColor="@color/colorDarkGrey"
-                    android:textSize="14sp" />
+                    style="@style/AppTheme.DetailsTextInfo" />
             </LinearLayout>
 
             <LinearLayout
@@ -409,21 +319,12 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/label_plate"
-                    android:textColor="@color/colorDarkGrey"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+                    style="@style/AppTheme.DetailsLabelInfo"
+                    android:text="@string/label_plate" />
 
                 <TextView
                     android:id="@+id/tv_plate_value"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="18dp"
-                    android:layout_marginStart="18dp"
-                    android:textColor="@color/colorDarkGrey"
-                    android:textSize="14sp" />
+                    style="@style/AppTheme.DetailsTextInfo" />
             </LinearLayout>
 
             <LinearLayout
@@ -433,63 +334,34 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/label_gas"
-                    android:textColor="@color/colorDarkGrey"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
+                    style="@style/AppTheme.DetailsLabelInfo"
+                    android:text="@string/label_gas" />
 
                 <TextView
                     android:id="@+id/tv_gas_value"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="18dp"
-                    android:layout_marginStart="18dp"
-                    android:textColor="@color/colorDarkGrey"
-                    android:textSize="14sp" />
+                    style="@style/AppTheme.DetailsTextInfo" />
             </LinearLayout>
         </LinearLayout>
 
         <ImageView
             android:id="@+id/iv_circle_02"
-            android:layout_width="12dp"
-            android:layout_height="12dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/ll_container_more_info"
-            android:layout_marginTop="44dp"
-            android:scaleType="center"
-            android:src="@drawable/ic_circle"
-            android:tint="@color/colorDarkGrey" />
+            style="@style/AppTheme.DetailsCircleIcon"
+            android:layout_below="@+id/ll_container_more_info" />
 
         <View
             android:id="@+id/h_vertical_line_04"
-            android:layout_width="wrap_content"
-            android:layout_height="0.8dp"
+            style="@style/AppTheme.DetailsHorizontalLine"
             android:layout_alignLeft="@+id/iv_circle_02"
             android:layout_alignStart="@+id/iv_circle_02"
             android:layout_alignTop="@+id/iv_circle_02"
-            android:layout_marginEnd="12dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="6dp"
             android:layout_toLeftOf="@+id/tv_seller_obs"
-            android:layout_toStartOf="@+id/tv_seller_obs"
-            android:background="@color/colorLightGrey" />
+            android:layout_toStartOf="@+id/tv_seller_obs" />
 
         <TextView
             android:id="@+id/tv_seller_obs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
+            style="@style/AppTheme.DetailsTitleInfo"
             android:layout_alignTop="@+id/iv_circle_02"
-            android:layout_marginTop="-10dp"
-            android:text="@string/label_seller_obs"
-            android:textColor="@color/colorGrey"
-            android:textSize="21sp" />
+            android:text="@string/label_seller_obs" />
 
         <TextView
             android:id="@+id/tv_full_description"

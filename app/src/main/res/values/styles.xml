@@ -36,4 +36,153 @@
     <style
         name="AppTheme.PopupOverlay"
         parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--
+		Estilo que contém algumas configurações padrões para os
+		ícones utilizados em item de lista de carros. Com isso
+		economizamos em código no layout XML de item e também
+		facilitamos a edição de layout, tendo em mente que muitas
+		configurações estão no mesmo local.
+	-->
+    <style name="AppTheme.ItemIcon">
+
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:tint">@color/colorItemNormal</item>
+    </style>
+
+    <!--
+		Estilo que contém algumas configurações padrões para os
+		textos que acompanham os ícones utilizados em item de lista
+		de carros. Com isso economizamos em código no layout XML de
+		item e também facilitamos a edição de layout.
+	-->
+    <style name="AppTheme.ItemTextIcon">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorItemNormal</item>
+    </style>
+
+    <!--
+		Estilo que contém algumas configurações padrões para os
+		botões presentes no DialogFragment de visualização de
+		albúm do carro em foco.
+	-->
+    <style name="AppTheme.DialogButton">
+
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!--
+		Parte do estilo dos RoundedImageViews do layout de detalhes
+		de carro à venda.
+	-->
+    <style name="AppTheme.DetailsRoundedImageView">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:onClick">openAlbum</item>
+    </style>
+
+    <!--
+		Estilo que contém algumas configurações padrões para os
+		ícones utilizados na tela de detalhes de carro à venda.
+	-->
+    <style
+        name="AppTheme.DetailsInfoIcon"
+        parent="@style/AppTheme.ItemIcon">
+
+        <item name="android:tint">@color/colorDarkGrey</item>
+    </style>
+
+    <!--
+		Estilo que contém algumas configurações padrões para os
+		textos que acompanham os ícones utilizados na área de
+		detalhes de carro.
+	-->
+    <style
+        name="AppTheme.DetailsTextIcon"
+        parent="@style/AppTheme.ItemTextIcon">
+
+        <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
+
+    <!--
+		Estilo que contém algumas configurações padrões para os
+		rótulos de informações extras da área de detalhes de carro.
+	-->
+    <style
+        name="AppTheme.DetailsLabelInfo"
+        parent="@style/AppTheme.ItemTextIcon">
+
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--
+       Estilo que contém algumas configurações padrões para as
+       informações extras da área de detalhes de carro.
+    -->
+    <style
+        name="AppTheme.DetailsTextInfo"
+        parent="@style/AppTheme.DetailsLabelInfo">
+
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">18dp</item>
+    </style>
+
+    <!--
+       Estilo que contém algumas configurações padrões para os
+       ícones de círculo contidos na área de detalhes de carro.
+    -->
+    <style name="AppTheme.DetailsCircleIcon">
+
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">44dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/ic_circle</item>
+        <item name="android:tint">@color/colorDarkGrey</item>
+    </style>
+
+    <!--
+       Estilo que contém algumas configurações padrões para as
+       linhas horizontais de separação de conteúdo extra na área
+       de detalhes de carro.
+    -->
+    <style name="AppTheme.DetailsHorizontalLine">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:layout_marginRight">@dimen/default_margin_padding</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@color/colorLightGrey</item>
+    </style>
+
+    <!--
+       Estilo que contém algumas configurações padrões para os
+       de informações de extras na área de detalhes de carro.
+    -->
+    <style name="AppTheme.DetailsTitleInfo">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">-10dp</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
 </resources>
