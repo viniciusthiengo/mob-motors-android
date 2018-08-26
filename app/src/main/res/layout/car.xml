@@ -4,6 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/item_car_background"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
     android:paddingBottom="0dp"
     android:paddingLeft="4dp"
     android:paddingRight="0dp"
