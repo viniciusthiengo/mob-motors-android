@@ -17,7 +17,7 @@ class Database {
                     1998,
                     180900,
                     "Manual",
-                    Seller("11999887766", "Loja", "São Bernado do Campo (SP)"),
+                    Seller("11999887766", "Loja", "São Bernardo do Campo (SP)"),
                     MoreInfo(
                         "Vermelho",
                         "Hatchback",
@@ -50,7 +50,7 @@ class Database {
                     1995,
                     189200,
                     "Manual",
-                    Seller("11999887766", "Loja", "São Bernado do Campo (SP)"),
+                    Seller("11999887766", "Loja", "São Bernardo do Campo (SP)"),
                     MoreInfo(
                         "Branco",
                         "Hatchback",

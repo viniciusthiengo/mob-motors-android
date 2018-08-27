@@ -72,7 +72,7 @@
     <!--
 		Estilo que contém algumas configurações padrões para os
 		botões presentes no DialogFragment de visualização de
-		albúm do carro em foco.
+		álbum do carro em foco.
 	-->
     <style name="AppTheme.DialogButton">
 

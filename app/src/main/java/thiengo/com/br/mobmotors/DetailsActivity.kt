@@ -104,7 +104,7 @@ class DetailsActivity : AppCompatActivity() {
 
     /*
      * Método responsável por abrir o DialogFragment que controla a
-     * apresentação das imagens em modo "albúm".
+     * apresentação das imagens em modo "álbum".
      * */
     fun openAlbum( view: View ){
         val transaction = supportFragmentManager.beginTransaction()

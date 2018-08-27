@@ -34,8 +34,8 @@ class ImageDialogFragment : DialogFragment(), View.OnClickListener {
          * Código que deixa o DialogFragment em modo fullscreen.
          * */
         setStyle(
-            DialogFragment.STYLE_NORMAL,
-            android.R.style.Theme_Black_NoTitleBar_Fullscreen
+                DialogFragment.STYLE_NORMAL,
+                android.R.style.Theme_Black_NoTitleBar_Fullscreen
         )
     }
 
@@ -50,8 +50,8 @@ class ImageDialogFragment : DialogFragment(), View.OnClickListener {
          * sintaxe permitida pelo plugin kotlin-android-extensions.
          * */
         return inflater.inflate(
-            R.layout.fragment_image_dialog,
-            container, false
+                R.layout.fragment_image_dialog,
+                container, false
         )
     }
 
@@ -117,7 +117,7 @@ class ImageDialogFragment : DialogFragment(), View.OnClickListener {
         }
 
         Picasso
-            .get()
+                .get()
                 .load( car.imagesUrl[ imagePosition ] )
                 .into( iv_image )
 
@@ -131,16 +131,16 @@ class ImageDialogFragment : DialogFragment(), View.OnClickListener {
      * */
     private fun verifyButtons() {
         iv_arrow_left.visibility =
-            if( imagePosition == 0 )
-                View.GONE
-            else
-                View.VISIBLE
+                if( imagePosition == 0 )
+                    View.GONE
+                else
+                    View.VISIBLE
 
         iv_arrow_right.visibility =
-            if( imagePosition == car.imagesUrl.size - 1)
-                View.GONE
-            else
-                View.VISIBLE
+                if( imagePosition == car.imagesUrl.size - 1)
+                    View.GONE
+                else
+                    View.VISIBLE
     }
 
     private fun close() {

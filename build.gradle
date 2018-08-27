@@ -21,10 +21,10 @@ allprojects {
         jcenter()
 
         /* Para a RoundedImageView */
-        maven { url "https://jitpack.io" }
+        mavenCentral()
 
         /* Para a PhotoView API */
-        mavenCentral()
+        maven { url "https://jitpack.io" }
     }
 }
 
