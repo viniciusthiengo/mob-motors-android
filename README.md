@@ -1,6 +1,8 @@
 # MobMotors (Kotlin Android)
 
-Projeto Kotlin Android da segunda parte do artigo [PhotoView Android Para a Completa Implementação de Zoom](https://www.thiengo.com.br/photoview-android-para-a-completa-implementacao-de-zoom#title-19) do Blog [Thiengo.com.br](https://www.thiengo.com.br). Artigo que discute em detalhes a PhotoView API, uma API que nos permite colocar a funcionalidade completa de zoom nos trechos de carregamento de imagem do projeto de aplicativo.
+Projeto Kotlin Android da segunda parte do artigo [PhotoView Android Para a Completa Implementação de Zoom](https://www.thiengo.com.br/photoview-android-para-a-completa-implementacao-de-zoom#title-19) do Blog [Thiengo.com.br](https://www.thiengo.com.br).
+
+Artigo que discute em detalhes a PhotoView API, uma API que nos permite colocar a funcionalidade completa de zoom nos trechos de carregamento de imagem do projeto de aplicativo.
 
 <img src="https://www.thiengo.com.br/img/post/normal/if8ibd5lbv9uaaesh2b77km934a4dac8140d91222ab6047f99a3d52904.gif" width="240" alt="Animação com a Android PhotoView API em uso">
 
